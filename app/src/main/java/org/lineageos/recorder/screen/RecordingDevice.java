@@ -39,8 +39,8 @@ import java.util.concurrent.Semaphore;
 class RecordingDevice extends EncoderDevice {
     private static final String LOGTAG = "RecordingDevice";
     private static final File RECORDINGS_DIR =
-            new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES),
-                    "ScreenRecords");
+            new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
+                    "Screenrecords");
     private final boolean mRecordAudio;
     private final File mPath;
 
